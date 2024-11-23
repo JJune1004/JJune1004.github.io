@@ -1,20 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>현도야 생일 축하해</title>
-    <link rel="stylesheet" href="style.css">
+    <title>A의 생일 축하</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            color: #ff6f61;
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 1.5em;
+            color: #333;
+        }
+        .celebration {
+            color: #ffcc00;
+            font-size: 2em;
+            margin-top: 30px;
+            animation: bounce 1s infinite;
+        }
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-20px);
+            }
+        }
+        .balloons {
+            width: 150px;
+            margin-top: 20px;
+        }
+    </style>
 </head>
-
 <body>
-    <div class="container">
-        <h1>Nothing in this page</h1>
-        <p></p>
-        <p id="counter">Loading...</p>
+    <h1>🎉 A의 생일을 축하합니다! 🎉</h1>
+    <p>오늘은 A의 특별한 날입니다! 행복하고 멋진 하루 되길 바랍니다.</p>
+    <div class="celebration">
+        축하합니다! 🎂🎈
     </div>
-    <script src="app.js"></script>
+    <img class="balloons" src="https://example.com/balloons.png" alt="Balloons">
 </body>
-
 </html>
